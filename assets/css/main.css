@@ -730,7 +730,7 @@ header nav > ul > li > a:focus + ul {
 
 @media screen and (max-width: 767px) {
   header nav > ul > li > a {
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
   }
 }
@@ -742,7 +742,7 @@ header nav > ul > li:hover > a {
 header nav > ul > li:hover > ul {
   visibility: visible;
   opacity: 1;
-  top: 106px;
+  top: 106px; 
 }
 
 @media screen and (max-width: 767px) {
@@ -755,10 +755,10 @@ header nav > ul > li:hover > ul {
 
 header nav > ul > li > ul {
   position: fixed;
-  width: 90%;
-  max-width: 1160px;
+  width: 200px;
+   /* max-width: 1160px; */
   top: 150px;
-  left: 50%;
+  left: 71%;
   -webkit-transform: translate3d(-50%, 0, 0);
           transform: translate3d(-50%, 0, 0);
   display: -webkit-box;
@@ -768,7 +768,7 @@ header nav > ul > li > ul {
       flex-wrap: wrap;
   background: #E8312D;
   color: #FFF;
-  padding: 0 20px 30px;
+  padding:10px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   visibility: hidden;
@@ -802,7 +802,7 @@ header nav > ul > li > ul:after {
   display: inline-block;
   position: absolute;
   bottom: 100%;
-  right: 255px;
+  right: 90px;
 }
 
 header nav > ul > li > ul a {
@@ -822,7 +822,7 @@ header nav > ul > li > ul > li {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   header nav > ul > li > ul > li {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
 }
 
@@ -863,9 +863,10 @@ header nav > ul > li > ul > li {
 }
 
 header nav > ul > li > ul > li .product-category {
-  padding-top: 30px;
-  border-bottom: 1px solid #FFF;
-  margin-bottom: 15px;
+  padding-top: 10px;
+  /* border-bottom: 1px solid #FFF;
+  margin-bottom: 15px; */
+  width: 200px;
 }
 
 @media screen and (max-width: 767px) {
@@ -875,9 +876,9 @@ header nav > ul > li > ul > li .product-category {
 }
 
 header nav > ul > li > ul > li .product-category a {
-  font-size: 18px;
-  margin-bottom: 10px;
-  font-weight: 600;
+  font-size: 13px;
+   /* margin-bottom: 10px;
+  font-weight: 600; */
 }
 
 header nav > ul > li > ul > li li {
